@@ -1,0 +1,65 @@
+<div class="template-alert">
+	<div class="template-alert-info">
+		<div class="tip">提示</div>
+		<div class="content">{{message}}</div>
+		<div class="template-alert-btn">
+			<span class="ok">确认</span>
+			<span class="cancel">取消</span>
+		</div>
+	</div>
+	<div class="template-alert-opacity"></div>
+</div>
+
+<style>
+	.template-alert{
+		width:100%;
+		height:100%;
+	}
+	.template-alert-opacity{
+		width:100%;
+		height:100%;
+		position: fixed;
+		background: #000;
+		opacity: 0.4;
+		top:0;
+		left:0;
+		z-index:888;
+	}
+	.template-alert-info{
+		position: fixed;
+		width:70%;
+		height:auto;
+		left:15%;
+		top:30%;
+		z-index:999;
+		color:#000;
+		background: #FFF;
+		text-align: center;
+		border-radius: 3px;
+	}
+	.template-alert-info .tip{
+		padding:0.8em 0 0;
+		font-size: 1.1em;
+	}
+	.template-alert-info .content{
+		padding:0.6em 1em;
+		color:#B2B2B2;
+		font-size: 1em;
+	}
+	.template-alert-info .template-alert-btn{
+		width:100%;
+		height:44px;
+		line-height: 44px;
+		border-top: 1px solid #f6e6e6;	
+		font-size: 1em;
+	}
+	.template-alert-info .template-alert-btn span{
+		width:48%;
+		display: inline-block;
+		text-align: center;
+
+	}
+	.template-alert-info .template-alert-btn .ok{
+		color: #0bb20c;
+	}
+</style>

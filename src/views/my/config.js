@@ -1,0 +1,73 @@
+export const initMusic = {url:'http://qiniuuwmp3.changba.com/795022664.mp3',name:'单车',singer:'陈奕迅',id:0}
+
+export const musicList = [
+	{url:'http://qiniuuwmp3.changba.com/795022664.mp3',name:'单车',singer:'陈奕迅',id:0},
+	{
+		url:'http://qiniuuwmp3.changba.com/803950756.mp3',
+		name:'咱们相爱吧',
+		singer:'杨宗纬',
+		id:1
+	},
+
+	{
+		url:'http://qiniuuwmp3.changba.com/793520058.mp3',
+		name:'小幸运',
+		singer:'田馥甄',
+		id:2
+	},
+
+	{
+		url:'http://qiniuuwmp3.changba.com/724745373.mp3',
+		name:'绅士',
+		singer:'薛之谦',
+		id:3
+	},
+	{
+		url:'http://lightapp.d2cmall.com/d2c/150720/d/bu.mp3',
+		name:'不将就',
+		singer:'李荣浩',
+		id:4
+	},
+	{
+		url:'http://qiniuuwmp3.changba.com/638722618.mp3',
+		name:'相依为命',
+		singer:'陈小春',
+		id:5
+	},
+	{
+		url:'http://qiniuuwmp3.changba.com/526652372.mp3',
+		name:'我想大声告诉你',
+		singer:'樊凡',
+		id:6
+	},
+	{
+		url:'http://a41mp3.changba.com/userdata/userwork/368/489072368.mp3',
+		name:'听海',
+		singer:'张学友',
+		id:7
+	},
+	{
+		url:'http://qiniuuwmp3.changba.com/482432099.mp3',
+		name:'急救室',
+		singer:'izi',
+		id:8
+	},
+	{
+		url:'http://qiniuuwmp3.changba.com/482433186.mp3',
+		name:'海阔天空',
+		singer:'beyond',
+		id:9
+	},
+	{
+		url:'http://upuwmp3.changba.com/userdata/userwork/744/432555744.mp3',
+		name:'爱很简单',
+		singer:'陶喆',
+		id:10
+	},
+	{
+		url:'http://qiniuuwmp3.changba.com/478226884.mp3',
+		name:'独家记忆',
+		singer:'陈小春',
+		id:11
+	}
+]
