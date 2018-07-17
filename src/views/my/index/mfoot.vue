@@ -196,6 +196,7 @@ export default {
             var _this = this
             this.calc = setInterval(() =>{
                 _this.Left.left = (_this.audio.currentTime/_this.sTime)*100 - 100 + '%';
+                aboveX =parseFloat(_this.Left.left)+100; // 随着播放时间调整；
                 _this.currentTime = _this.changeTime(_this.audio.currentTime)
             },1000/this.speed) 
             
